@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color:  black;
 }
 
 .App-link {
@@ -35,4 +35,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar {
+  background: #626262; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #626262 0%, #525252 40%, #3a3a3a 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #626262 0%,#525252 40%,#3a3a3a 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #626262 0%,#525252 40%,#3a3a3a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#626262', endColorstr='#3a3a3a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    border: 0px;
+}
+
+.card {
+  margin: 0.75rem;
+}
+
+.card-body {
+  min-height: 16rem;
+}
+
+#small-panels .col-md{
+  margin-top: 1.5rem;
+}
+
+body{
+  background-color: rgba(33, 33, 33, 0.98);
 }
